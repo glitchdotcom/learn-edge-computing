@@ -4,6 +4,8 @@ This is an app for learning about edge computing with Fastly!
 
 In this project you'll learn how to enhance the behavior of a website at the network edge using logic written in JavaScript. You can test the functionality locally in the codespace without installing any local tooling, then grab a Fastly API key when you're ready to deploy.
 
+Check out the demo site: [learn-compute.edgecompute.app](https://learn-compute.edgecompute.app/)
+
 ## In this doc
 
 * [Fork your own app](#fork-your-own-app)
