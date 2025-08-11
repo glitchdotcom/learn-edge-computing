@@ -8,7 +8,7 @@
 import { getGeolocationForIpAddress } from "fastly:geolocation";
 import { env } from "fastly:env";
 let where = "?", greeting = "Hello! ";
-let root = "/hello-compute/"; //change the root if your repo name (site path) is different 
+let root = "/learn-edge-computing/"; //change the root if your repo name (site path) is different 
 
 // We use a function to handle requests to the origin
 addEventListener("fetch", (event) => event.respondWith(handleRequest(event)));
