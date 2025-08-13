@@ -7,6 +7,7 @@ read answer
 IFS='/' read -ra repo <<< "$GITHUB_REPOSITORY"
 ghio=$(echo "${repo[0]}.github.io")
 user=$( echo "$ghio" | tr '[:upper:]' '[:lower:]' )
+origin="https://$user/${repo[1]}"
 
 if [ "$answer" != "${answer#[Yy]}" ] ; then 
     if [ ! $FASTLY_API_TOKEN ]; then 
@@ -20,7 +21,7 @@ if [ "$answer" != "${answer#[Yy]}" ] ; then
         npm run deploy || { echo 'Oops! Something went wrong deploying your app.. 🤬'; exit 1; }
         readarray -t lines < <(npm run domain)
         IFS='   ' read -r -a array <<< "${lines[5]}"
-        printf "\nWoohoo check out your site at https://${array[2]} 🪩 🛼 🎏\n\n"
+        printf "\nWoohoo your demo origin site on GitHub Pages: $origin \n\nAnd your Compute app on Fastly: https://${array[2]} 🪩 🛼 🎏\n\n"
     fi
 else
     exit 1
