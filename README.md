@@ -20,7 +20,7 @@ Check out the demo site: [learn-compute.edgecompute.app](https://learn-compute.e
 
 ## Fork your own app
 
-**Fork** [this repository](https://github.com/glitchdotcom/hello-compute/) to create your own copy of the app.
+**Fork** [this repository](https://github.com/glitchdotcom/learn-edge-computing/) to create your own copy of the app.
 
 In your fork, open the site in a codespace by clicking **Code** > **Codespaces** and creating a new codespace on your main branch. 
 
@@ -104,7 +104,7 @@ You can try your Compute app at the edge using the **🚀 Publish** button. This
 
 > ⚠️ Note that the script will attempt to deploy the origin version of your site to `username.github.io/reponame` so it might not work as expected if your repo is in an organization rather than a user account.
 > 
-> 🚨 If you named your repo something different to `hello-compute` – change the `root` variable in `src/index.js` to match it.
+> 🚨 If you named your repo something different to `learn-edge-computing` – change the `root` variable in `src/index.js` to match it.
 
 When you're ready to deploy your app to the Fastly network, you'll need an API key and one command entered into the Terminal:
 
