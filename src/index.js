@@ -94,9 +94,9 @@ async function handleRequest(_event) {
   return backendResponse;
 }
 
-// The synthetic page is tailored to the Glitch origin so tweak to suit your site!
+// The synthetic page is tailored to the origin so tweak to suit your site!
 function getSynthPage(heading, message) {
-  // The default Glitch origin has a stylesheet called "style.css"
+  // The default origin has a stylesheet called "style.css"
   return `
 <!DOCTYPE html>
 <html>
