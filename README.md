@@ -20,7 +20,7 @@ Check out the demo site: [learn-compute.edgecompute.app](https://learn-compute.e
 
 ## Fork your own app
 
-**Fork** [this repository](https://github.com/glitchdotcom/learn-edge-computing/) to create your own copy of the app.
+**Fork** [this repository](https://github.com/fastly/learn-edge-computing/) to create your own copy of the app.
 
 In your fork, open the site in a codespace by clicking **Code** > **Codespaces** and creating a new codespace on your main branch. 
 
@@ -175,7 +175,7 @@ You'll find your service in your Fastly account control panel – check out the 
 
 What else can you build on Compute? Check out the [code examples](https://www.fastly.com/documentation/solutions/examples/) for inspiration.
 
-You can also [clone the example website](https://github.com/glitchdotcom/compute-origin) and deploy it to GitHub Pages if you like by following the instructions in its README (make sure you update the `toml` and `index.js` `root` values in your clone of the Compute app).
+You can also [clone the example website](https://github.com/fastly/compute-origin) and deploy it to GitHub Pages if you like by following the instructions in its README (make sure you update the `toml` and `index.js` `root` values in your clone of the Compute app).
 
 🛟 Get help on the <a href="https://community.fastly.com" target="_blank">community forum</a>.
 
